@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-course",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "mongodb": "^3.7.4",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^5.0.3",
+    "react-router-dom": "^6.27.0",
+    "react-syntax-highlighter": "^15.4.3"
+  }
+}
