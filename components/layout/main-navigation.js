@@ -5,18 +5,16 @@ import classes from './main-navigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <Link href='/' legacyBehavior>
-        
+      <Link href='/'>
         <Logo />
-        
       </Link>
       <nav>
         <ul>
           <li>
-            <Link href='/posts' legacyBehavior>Posts</Link>
+            <Link href='/posts'>Posts</Link>
           </li>
           <li>
-            <Link href='/contact' legacyBehavior>Contact</Link>
+            <Link href='/contact' >Contact</Link>
           </li>
         </ul>
       </nav>

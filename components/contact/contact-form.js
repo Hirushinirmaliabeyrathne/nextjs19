@@ -75,7 +75,7 @@ function ContactForm() {
       status: 'success',
       title: 'Success!',
       message: 'Message sent successfully!',
-    };
+    }; 
   }
 
   if (requestStatus === 'error') {
